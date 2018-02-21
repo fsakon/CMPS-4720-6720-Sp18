@@ -68,8 +68,10 @@ gscatter(SepalLength, SepalWidth, Class,'','','','off');
 
 trainbundle1 = [PetalLength(1:105,1),PetalWidth(1:105,1)]
 trainbundle2 = [PetalLength(1:105,1),SepalWidth(1:105,1)]
+
 testbundle1 = [PetalLength(106:150,1),PetalWidth(106:150,1)]
 testbundle2 = [PetalLength(106:150,1),SepalWidth(106:150,1)]
+
 trainClass = Class(1:105,1)
 testClass = Class(106:150,1)
 
